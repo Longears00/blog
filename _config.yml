@@ -8,7 +8,7 @@ subtitle: Blog
 description: 知识点记录
 keywords: react vue webpack javaScript node css
 author: Longears
-language: Chinese English
+language: en
 timezone:	Asia/Shanghai
 
 # URL
@@ -76,7 +76,13 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
